@@ -44,18 +44,6 @@ blocks:
     coordinate: [408, 12.0]
     rotation: 0
     state: enabled
-- name: freq_signal
-  id: variable
-  parameters:
-    comment: ''
-    value: '1000'
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [304, 12.0]
-    rotation: 0
-    state: enabled
 - name: samp_rate
   id: variable
   parameters:
@@ -132,21 +120,6 @@ blocks:
     bus_source: false
     bus_structure: null
     coordinate: [688, 12.0]
-    rotation: 0
-    state: true
-- name: variable_tag_object_0
-  id: variable_tag_object
-  parameters:
-    comment: ''
-    key: pmt.intern("key")
-    offset: '0'
-    src: pmt.intern("src")
-    value: pmt.intern("value")
-  states:
-    bus_sink: false
-    bus_source: false
-    bus_structure: null
-    coordinate: [688, 92.0]
     rotation: 0
     state: true
 - name: blocks_file_source_0
